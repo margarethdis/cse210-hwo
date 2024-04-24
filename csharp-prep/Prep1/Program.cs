@@ -12,9 +12,6 @@ class Program
         Console.Write("What is your last name?");
         string last = Console.ReadLine();
 
-        Console.Write("What is your age?");
-        string age = Console.ReadLine();
-
-        Console.WriteLine($"Your name is {last}, {name}{last} and you are {age}.");
+        Console.WriteLine($"Your name is {last}, {name}{last}.");
     }
 }
