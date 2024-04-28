@@ -11,9 +11,7 @@ class Program
         int userNumber; //definimos la varibale out loop , [ara poder utilizarlo despues
         //si estuvier dentro solo ahi lo podria utilizr]
 
-        //mira el loop ya no necesitas definir la vaiable otra vez
-
-        
+        //mira el loop ya no necesitas definir la vaiable otra vez     
         do
         {
             Console.Write("Enter a number: ");
@@ -23,10 +21,13 @@ class Program
 
         }while(userNumber != 0);
 
-        
+        int sum = 0;
 
-
-
+        foreach(int num in numbers)
+        {
+            sum += num;
+        }
+        Console.WriteLine($"The sum is: {sum}");
         
 
         //usar un foreach para iterar la lista hasta que el user
