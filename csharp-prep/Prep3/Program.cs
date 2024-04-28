@@ -9,6 +9,7 @@ class Program
         //string magic = Console.ReadLine();
         //int magicNumber = int.Parse(magic);
 
+
       do
       {
         Random randomGenerator = new Random();
