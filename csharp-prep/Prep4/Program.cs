@@ -28,14 +28,16 @@ class Program
             sum += num;
         }
         Console.WriteLine($"The sum is: {sum}");
+
+        float average = sum/numbers.Count;
+        Console.WriteLine($"The average  is: {average}.");
+        
+        int maxNumber = numbers.Max();
+
+        Console.WriteLine($"The larger number is :{maxNumber}.");
+
         
 
-        //usar un foreach para iterar la lista hasta que el user
-        //escriba 0
-
-        
-        Console.WriteLine("Added succesfully");
-        Console.Write($"Your list has {numbers.Count} numbers.");
 
 
 
