@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// Clase para representar un comentario en un video
+
 class Comment
 {
     private string commenterName;

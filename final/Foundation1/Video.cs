@@ -1,4 +1,4 @@
-// Clase para representar un video de YouTube
+
 class Video
 {
     private string title;
